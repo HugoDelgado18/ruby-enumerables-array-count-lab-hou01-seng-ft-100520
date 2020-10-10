@@ -1,6 +1,6 @@
 def count_strings(array)
 
-  array.count do {|i| i.is_a(strings)}
+  array.count do {|i| i == class(string)}
   end
 end
   #return total_strings
