@@ -1,6 +1,6 @@
 def count_strings(array)
 
-  array.count do {|i| i == class(strings)}
+  array.count do {|i| i.kind_of?(String)}
   end
 end
   #return total_strings
