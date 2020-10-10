@@ -1,20 +1,17 @@
 def count_strings(array)
-
-  array.count do | total_strings |
-   total_strings.class == String
-
+  total_strings = []
+  array.count do {|i| i.is_a(strings)}
+    total_strings << i
   end
+end
   #return total_strings
   # Return the total number of strings in the provided array using the count enumerable
-end
+
 
 def count_empty_strings(array)
 
-  array.count do | total_strings |
-   total_strings == ""
 
 
-  end
   #return total_strings
   # Return the total number of EMPTY strings in the provided array using the count enumerable
 end
