@@ -1,7 +1,6 @@
 def count_strings(array)
-  total_strings = []
+
   array.count do {|i| i.is_a(strings)}
-    total_strings << i
   end
 end
   #return total_strings
